@@ -235,12 +235,12 @@
 		"strength": 65,
 		"cost": 375,
 		"requiredTech": "Radar",
-		"upgradesTo": "Future Soldier",
+		"upgradesTo": "Future Infantry",
 		"uniques": ["May Paradrop up to [9] tiles from inside friendly territory", "No movement cost to pillage", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
 	{
-		"name": "Future Soldier",
+		"name": "Future Infantry",
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 100,
