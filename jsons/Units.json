@@ -259,3 +259,29 @@
 			"Can instantly construct a [Customs house] improvement <by consuming this unit>","Double movement in [Coast]","Unbuildable","Uncapturable"]
 	},
 	]
+		"name": "Space Cruiser", 
+		"unitType": "Aircraft Carrier"
+		"movement": 10,
+		"strength": 1000,
+		"rangedStrength": 1000,
+		"range": 10,
+		"interceptRange": 8,
+		"cost": 1000,
+		"requiredTech": "Future Tech",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[+200]% Strength <vs cities>","Can carry [10] [Aircraft] units,"Consumes [3] [Uranium]","[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
+			"Can carry [10] [Missile] units", "[+200]% Strength <vs [Submarine] units>","Indirect Fire","Can pass through impassable tiles"],
+	},
+	{
+		"name": "Beam Fighter",
+		"unitType": "Fighter",
+		"movement": 2,
+		"strength": 125,
+		"rangedStrength": 125,
+		"range": 15,
+		"interceptRange": 15,
+		"cost": 550,
+		"requiredTech": "Future Tech",
+		"uniques": ["[100]% chance to intercept air attacks", "[+200]% Strength <vs [Bomber] units>", "[+200]% Strength <vs [Helicopter] units>","Consumes [1] [Uranium]"],
+		"attackSound": "jetgun"
+	},
+	{
